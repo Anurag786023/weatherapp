@@ -1,0 +1,133 @@
+*{
+  margin : 0px;
+  padding: 0px;
+ 
+} 
+body{
+  background-color: rgba(0, 0, 0, 0.596);
+  background-image: url("/static/image/himalaya.jpg");
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+  position: relative;
+  background-size:cover;
+}
+
+
+
+
+.cards{
+  background-color: rgba(128, 128, 128, 0.144);
+  align-items: center;
+  margin-top: 30%;
+  border: solid;
+  border-color: rgba(0, 0, 0, 0.322);
+  border-radius: 20px;
+  border-width: 1px;
+   margin-left: 40px;
+  
+   padding-top: 30px;
+   padding-bottom: 30px;
+   margin-right: 60px;
+   box-shadow: 2px 2px 5px 2px #00000048 ;
+  text-align: center;
+   /* background-color: red;  */
+  align-items: center;
+ margin-right: 100px;
+ margin-left:30px
+}
+.cards-1{
+  
+  align-items: center;
+  margin-top: 20%;
+
+  border-width: 1px;
+ 
+  align-items: center;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   margin-right: 60px;
+   /* box-shadow: 2px 2px 5px 2px #00000048 ; */
+ 
+   /* background-color: red;  */
+ 
+ 
+}
+#para{
+  /* background-color: red; */
+  font-size: medium;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+#input{
+  
+  padding: 5px 5px;
+  background-color: rgba(255, 255, 255, 0.781);
+  border-radius: 7px;
+  border-width: 0px;
+  text-decoration: none;
+}
+
+
+
+.button-18 {
+align-items: center;
+background-color: #0a66c2c4;
+border: 0;
+border-radius: 100px;
+margin-top: 15px;
+box-sizing: border-box;
+color: #ffffff;
+cursor: pointer;
+display: inline-flex;
+font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-weight: 600;
+justify-content: center;
+line-height: 20px;
+max-width: 480px;
+min-height: 40px;
+min-width: 0px;
+overflow: hidden;
+padding: 0px;
+padding-left: 20px;
+padding-right: 20px;
+text-align: center;
+touch-action: manipulation;
+transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+user-select: none;
+-webkit-user-select: none;
+vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus { 
+background-color: #16437E;
+color: #ffffff;
+}
+
+.button-18:active {
+background: #09223b;
+color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+cursor: not-allowed;
+background: rgba(0, 0, 0, .08);
+color: rgba(0, 0, 0, .3);
+}
+.seccol{
+ 
+  margin-top: 30%;
+  margin-right: 20%;
+}
+.cards-1 input{
+  display: inline-block;
+ padding: 4px;
+ margin: 5px;
+ font-size: 16px;
+ border-radius:10px;
+ border:1px solid;
+ width:7cm;
+ }
